@@ -45,7 +45,7 @@ a{outline:none; text-decoration:none;}
 .fl_left, .imgl{float:left;}
 .fl_right, .imgr{float:right;}
 
-img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+img{width:350; max-width:65%; height:250; margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
 .imgl{margin:0 15px 10px 0; clear:left;}
 .imgr{margin:0 0 10px 15px; clear:right;}
 .imgover{display:inline-block; position:relative; max-width:100%;}
@@ -54,7 +54,10 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 .imgover::after{top:50%; left:50%; width:50px; height:50px; line-height:50px; margin:-25px 0 0 -25px; font-family:"Font Awesome\ 5 Free"; font-weight:900; content:"\f067";/* fa-plus */ font-size:28px;}
 .imgover:hover::before, .imgover:hover::after{opacity:1;}
 
-
+.margem {
+    padding-left: 200px;
+    padding-right: 200px;
+}
 /* Fonts
 --------------------------------------------------------------------------------------------------------------- */
 body, input, textarea, select{font-family:Verdana, Geneva, sans-serif;}
